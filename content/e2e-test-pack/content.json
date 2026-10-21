@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "id": "e2e-test-pack",
+  "name": "E2E test pack",
+  "version": "1.0.0",
+  "data_dir": "_data/5932408047/rad15/win10",
+  "manifests": [],
+  "scripts": [],
+  "files": {}
+}

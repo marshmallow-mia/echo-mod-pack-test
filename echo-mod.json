@@ -1,16 +1,18 @@
 {
   "schema": 1,
-  "id": "example-mod",
-  "name": "Example mod",
-  "summary": "Logs the game's state changes. A starting point for your own mod.",
-  "author": "Your name",
-  "version": "0.1.0",
-  "kind": "mod",
-  "file": "ExampleMod.dll",
+  "id": "e2e-test-pack",
+  "name": "E2E test pack",
+  "summary": "A throwaway content pack for the launcher's end-to-end test. Not for players.",
+  "author": "marshmallow-mia",
+  "version": "1.0.0",
+  "kind": "pack",
+  "file": "E2ePackMod.dll",
   "api": 5,
-  "capabilities": ["observes-only"],
+  "capabilities": [
+    "observes-only"
+  ],
   "target": "client",
-  "visibility": "public",
+  "visibility": "unlisted",
   "requires": {
     "nevr": ">=4.1.0",
     "mods": []
@@ -19,5 +21,8 @@
   "license": "MIT",
   "homepage": "",
   "args": {},
-  "settings": "ExampleMod.plugin.json"
+  "settings": "E2ePackMod.plugin.json",
+  "pack": {
+    "content": "e2e-test-pack"
+  }
 }
